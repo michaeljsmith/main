@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{E4F0625C-69F0-4E2B-A9B5-501B0A8825C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\..\tools\test\test.vcproj", "{7B50E792-918A-46A9-8A70-5B48E6BCB4B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{DCD5A87D-8E51-45A6-97AE-3D7A0C8D0E21}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testd3d", "..\..\apps\testd3d\testd3d.vcproj", "{831A6908-0F92-4371-8115-27052080CCA5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF} = {D72ACFF7-8329-4DBC-8CB5-25BA91332FCF}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{6BA28755-979E-4168-B2AD-D66BCE3B00BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXUT", "..\..\libs\DXUT\DXUT.vcproj", "{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{FF55A750-DB5F-4C4A-818A-9A9AB5DACD72}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\props\d3d.vsprops = ..\..\props\d3d.vsprops
+		..\..\props\tools.vsprops = ..\..\props\tools.vsprops
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B50E792-918A-46A9-8A70-5B48E6BCB4B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B50E792-918A-46A9-8A70-5B48E6BCB4B7}.Debug|Win32.Build.0 = Debug|Win32
+		{7B50E792-918A-46A9-8A70-5B48E6BCB4B7}.Release|Win32.ActiveCfg = Release|Win32
+		{7B50E792-918A-46A9-8A70-5B48E6BCB4B7}.Release|Win32.Build.0 = Release|Win32
+		{831A6908-0F92-4371-8115-27052080CCA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{831A6908-0F92-4371-8115-27052080CCA5}.Debug|Win32.Build.0 = Debug|Win32
+		{831A6908-0F92-4371-8115-27052080CCA5}.Release|Win32.ActiveCfg = Release|Win32
+		{831A6908-0F92-4371-8115-27052080CCA5}.Release|Win32.Build.0 = Release|Win32
+		{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF}.Debug|Win32.Build.0 = Debug|Win32
+		{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF}.Release|Win32.ActiveCfg = Release|Win32
+		{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B50E792-918A-46A9-8A70-5B48E6BCB4B7} = {E4F0625C-69F0-4E2B-A9B5-501B0A8825C9}
+		{831A6908-0F92-4371-8115-27052080CCA5} = {DCD5A87D-8E51-45A6-97AE-3D7A0C8D0E21}
+		{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="d3d"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\DirectX\Include&quot;;&quot;$(SolutionDir)..\..\third_party\DXUT\DX9\Core&quot;;&quot;$(SolutionDir)..\..\third_party\DXUT\DX9\Optional&quot;"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="dxerr9.lib"
+		AdditionalLibraryDirectories="&quot;$(SolutionDir)..\..\third_party\DirectX\Lib\x86&quot;"
+	/>
+</VisualStudioPropertySheet>
