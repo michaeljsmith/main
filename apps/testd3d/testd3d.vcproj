@@ -21,7 +21,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\..\props\tools.vsprops;..\..\props\d3d.vsprops"
+			InheritedPropertySheets="..\..\props\d3d.vsprops;..\..\props\base.vsprops"
 			CharacterSet="1"
 			>
 			<Tool
@@ -48,7 +48,6 @@
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
 				UsePrecompiledHeader="0"
-				WarningLevel="3"
 				DebugInformationFormat="4"
 			/>
 			<Tool
@@ -94,7 +93,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\..\props\tools.vsprops;..\..\props\d3d.vsprops"
+			InheritedPropertySheets="..\..\props\d3d.vsprops;..\..\props\base.vsprops"
 			CharacterSet="1"
 			WholeProgramOptimization="1"
 			>
@@ -121,7 +120,6 @@
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
 				UsePrecompiledHeader="0"
-				WarningLevel="3"
 				DebugInformationFormat="3"
 			/>
 			<Tool

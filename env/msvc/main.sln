@@ -18,8 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXUT", "..\..\libs\DXUT\DXU
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{FF55A750-DB5F-4C4A-818A-9A9AB5DACD72}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\props\base.vsprops = ..\..\props\base.vsprops
 		..\..\props\d3d.vsprops = ..\..\props\d3d.vsprops
-		..\..\props\tools.vsprops = ..\..\props\tools.vsprops
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost", "..\..\libs\boost\boost.vcproj", "{9A8F19C1-02BF-4D05-AB08-D2B58B9032E1}"

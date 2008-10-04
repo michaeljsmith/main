@@ -7,7 +7,17 @@ logging::log_file_handler::log_file_handler(const std::string& path)
 
 void logging::log_file_handler::message(severity svrty, const char* msg)
 {
-	this->out << msg;
+	const char* prefix;
+	switch (svrty)
+	{
+	case debug:   prefix = "D:"; break;
+	case info:    prefix = "  "; break;
+	case warning: prefix = "W:"; break;
+	case error:   prefix = "E:"; break;
+	default:      prefix = "**"; break;
+	}
+
+	this->out << prefix << " " << msg;
 	this->out.flush();
 }
 
