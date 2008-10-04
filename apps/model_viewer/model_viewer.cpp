@@ -4,8 +4,16 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 //--------------------------------------------------------------------------------------
 #include "DXUT.h"
-//#include "resource.h"
+#include "rendering/renderer_impl.h"
+#include "rendering/dx9/renderer_dx9.h"
 
+class application
+{
+public:
+	rendering::renderer_impl<rendering::renderer_dx9> renderer;
+};
+
+static application app;
 
 //--------------------------------------------------------------------------------------
 // Rejects any D3D9 devices that aren't acceptable to the app by returning false
@@ -40,6 +48,8 @@ bool CALLBACK ModifyDeviceSettings( DXUTDeviceSettings* pDeviceSettings, void* p
 HRESULT CALLBACK OnD3D9CreateDevice( IDirect3DDevice9* pd3dDevice, const D3DSURFACE_DESC* pBackBufferSurfaceDesc,
                                      void* pUserContext )
 {
+	set_device(get_renderer(app.renderer), pd3dDevice);
+
     return S_OK;
 }
 
@@ -68,16 +78,8 @@ void CALLBACK OnFrameMove( double fTime, float fElapsedTime, void* pUserContext 
 //--------------------------------------------------------------------------------------
 void CALLBACK OnD3D9FrameRender( IDirect3DDevice9* pd3dDevice, double fTime, float fElapsedTime, void* pUserContext )
 {
-    HRESULT hr;
-
-    // Clear the render target and the zbuffer 
-    V( pd3dDevice->Clear( 0, NULL, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, D3DCOLOR_ARGB( 0, 45, 50, 170 ), 1.0f, 0 ) );
-
-    // Render the scene
-    if( SUCCEEDED( pd3dDevice->BeginScene() ) )
-    {
-        V( pd3dDevice->EndScene() );
-    }
+	app.renderer.begin();
+	app.renderer.end();
 }
 
 
@@ -104,6 +106,7 @@ void CALLBACK OnD3D9LostDevice( void* pUserContext )
 //--------------------------------------------------------------------------------------
 void CALLBACK OnD3D9DestroyDevice( void* pUserContext )
 {
+	set_device(get_renderer(app.renderer), 0);
 }
 
 

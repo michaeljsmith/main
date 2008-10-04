@@ -13,6 +13,8 @@ namespace rendering
 	};
 
 	void set_device(renderer_dx9& rndr, IDirect3DDevice9* device);
+	void begin_render(renderer_dx9& rndr);
+	void end_render(renderer_dx9& rndr);
 }
 
 #endif //__RENDERER_DX9__

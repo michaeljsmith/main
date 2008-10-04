@@ -11,22 +11,28 @@ namespace rendering
 		typedef T renderer;
 
 		// renderer
-		virtual void begin_render();
-		virtual void end_render();
+		virtual void begin();
+		virtual void end();
 
-	private:
 		renderer rndr;
 	};
+
+	template <typename T> T& get_renderer(renderer_impl<T>& impl);
 }
 
-template <typename T> void rendering::renderer_impl<T>::begin_render()
+template <typename T> void rendering::renderer_impl<T>::begin()
 {
 	begin_render(this->rndr);
 }
 
-template <typename T> void rendering::renderer_impl<T>::end_render()
+template <typename T> void rendering::renderer_impl<T>::end()
 {
 	end_render(this->rndr);
+}
+
+template <typename T> T& rendering::get_renderer(rendering::renderer_impl<T>& impl)
+{
+	return impl.rndr;
 }
 
 #endif //__RENDERER_IMPL_H__

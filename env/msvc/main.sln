@@ -40,6 +40,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "base", "..\..\libs\base\bas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "model_viewer", "..\..\apps\model_viewer\model_viewer.vcproj", "{678DE0FE-C596-4003-BDB4-BC319D8C9246}"
 	ProjectSection(ProjectDependencies) = postProject
+		{DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF} = {DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF}
 		{D72ACFF7-8329-4DBC-8CB5-25BA91332FCF} = {D72ACFF7-8329-4DBC-8CB5-25BA91332FCF}
 	EndProjectSection
 EndProject
