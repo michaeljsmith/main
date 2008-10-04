@@ -21,7 +21,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="4"
-			InheritedPropertySheets="..\..\props\tools.vsprops;..\..\props\d3d.vsprops"
+			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops"
 			CharacterSet="1"
 			>
 			<Tool
@@ -83,7 +83,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="4"
-			InheritedPropertySheets="..\..\props\tools.vsprops;..\..\props\d3d.vsprops"
+			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops"
 			CharacterSet="1"
 			WholeProgramOptimization="1"
 			>
