@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{E4F0625C-69F0-4E2B-A9B5-501B0A8825C9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\..\tools\test\test.vcproj", "{7B50E792-918A-46A9-8A70-5B48E6BCB4B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1} = {CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{DCD5A87D-8E51-45A6-97AE-3D7A0C8D0E21}"
 EndProject
@@ -45,6 +48,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "model_viewer", "..\..\apps\
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "renderer_dx", "..\..\libs\renderer_dx\renderer_dx.vcproj", "{DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maths", "..\..\libs\maths\maths.vcproj", "{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,6 +109,10 @@ Global
 		{DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF}.Debug|Win32.Build.0 = Debug|Win32
 		{DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF}.Release|Win32.ActiveCfg = Release|Win32
 		{DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF}.Release|Win32.Build.0 = Release|Win32
+		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}.Debug|Win32.Build.0 = Debug|Win32
+		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}.Release|Win32.ActiveCfg = Release|Win32
+		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,5 +131,6 @@ Global
 		{791E5B08-ABC9-4742-9EDC-79E68802767F} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 		{A972EBC0-8ADA-4232-99E1-109AB4BA3C23} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 		{DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
+		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 	EndGlobalSection
 EndGlobal

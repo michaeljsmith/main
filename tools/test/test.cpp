@@ -1,4 +1,5 @@
 #include <boost/shared_ptr.hpp>
+#include "maths/maths3d/vector.h"
 
 class iface1
 {
@@ -27,6 +28,12 @@ class foo : public impl<ifaces>
 int main()
 {
 	foo f;
+
+	maths::vector4 v1, v2;
+	maths::vector4 v3;
+	v3 = v1 + v2;
+	v3 += v3;
+	v3 *= 2.0f;
 
 	return 0;
 }
