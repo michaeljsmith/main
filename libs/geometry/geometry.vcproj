@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="base"
-	ProjectGUID="{A972EBC0-8ADA-4232-99E1-109AB4BA3C23}"
-	RootNamespace="base"
+	Name="geometry"
+	ProjectGUID="{951B7C10-B4B3-42B8-A12B-6F8019AF0340}"
+	RootNamespace="geometry"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -144,32 +144,24 @@
 	</References>
 	<Files>
 		<Filter
-			Name="bits"
+			Name="meshes"
 			>
 			<File
-				RelativePath="..\..\src\bits\bitio.h"
+				RelativePath="..\..\src\meshes\mesh.h"
 				>
 			</File>
-		</Filter>
-		<Filter
-			Name="types"
-			>
-			<File
-				RelativePath="..\..\src\types\integer.h"
+			<Filter
+				Name="models"
 				>
-			</File>
-			<File
-				RelativePath="..\..\src\types\static_instance.h"
-				>
-			</File>
-		</Filter>
-		<Filter
-			Name="ref"
-			>
-			<File
-				RelativePath="..\..\src\ref\ref.h"
-				>
-			</File>
+				<File
+					RelativePath="..\..\src\meshes\models\dynamic_mesh.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\src\meshes\models\dynamic_mesh.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 	</Files>
 	<Globals>

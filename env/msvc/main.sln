@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "renderer_dx", "..\..\libs\r
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maths", "..\..\libs\maths\maths.vcproj", "{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "geometry", "..\..\libs\geometry\geometry.vcproj", "{951B7C10-B4B3-42B8-A12B-6F8019AF0340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -113,6 +115,10 @@ Global
 		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}.Debug|Win32.Build.0 = Debug|Win32
 		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}.Release|Win32.ActiveCfg = Release|Win32
 		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1}.Release|Win32.Build.0 = Release|Win32
+		{951B7C10-B4B3-42B8-A12B-6F8019AF0340}.Debug|Win32.ActiveCfg = Debug|Win32
+		{951B7C10-B4B3-42B8-A12B-6F8019AF0340}.Debug|Win32.Build.0 = Debug|Win32
+		{951B7C10-B4B3-42B8-A12B-6F8019AF0340}.Release|Win32.ActiveCfg = Release|Win32
+		{951B7C10-B4B3-42B8-A12B-6F8019AF0340}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,5 +138,6 @@ Global
 		{A972EBC0-8ADA-4232-99E1-109AB4BA3C23} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 		{DE56D5C8-1523-4A9A-A4B0-E0FB03158FBF} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
+		{951B7C10-B4B3-42B8-A12B-6F8019AF0340} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 	EndGlobalSection
 EndGlobal
