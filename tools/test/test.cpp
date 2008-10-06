@@ -1,5 +1,6 @@
 #include <boost/shared_ptr.hpp>
 #include "maths/maths3d/vector.h"
+#include "maths/maths3d/matrix.h"
 
 class iface1
 {
@@ -34,6 +35,9 @@ int main()
 	v3 = v1 + v2;
 	v3 += v3;
 	v3 *= 2.0f;
+
+	maths::matrix44 m;
+	v3 = v3 * m;
 
 	return 0;
 }

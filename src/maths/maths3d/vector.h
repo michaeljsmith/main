@@ -5,7 +5,14 @@
 
 namespace maths {namespace vectors {namespace archetypes
 {
-	class vector4 {public: float x, y, z, w;};
+	class vector4
+	{
+	public:
+		float x, y, z, w;
+
+		float& operator[](int i) {return reinterpret_cast<float*>(this)[i];}
+		float operator[](int i) const {return reinterpret_cast<float const*>(this)[i];}
+	};
 
 	float dot(vector4 const& v1, vector4 const& v2);
 	float magnitude_sqr(vector4 const& v);
@@ -27,13 +34,13 @@ namespace maths {namespace vectors
 	public:
 		float x, y, z, w;
 	};
-
-	template <> struct archetype_of<vector4> {typedef archetypes::vector4 type;};
 }}
 
 namespace maths
 {
 	using vectors::vector4;
+
+	template <> struct archetype_of<vector4> {typedef vectors::archetypes::vector4 type;};
 }
 
 #endif //__VECTOR_H__

@@ -151,6 +151,14 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\src\maths\maths3d\matrix.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\src\maths\maths3d\matrix.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\src\maths\maths3d\vector.cpp"
 				>
 			</File>

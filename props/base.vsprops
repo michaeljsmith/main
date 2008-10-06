@@ -6,7 +6,7 @@
 	>
 	<Tool
 		Name="VCCLCompilerTool"
-		AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\boost&quot;"
+		AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\boost&quot;;&quot;$(SolutionDir)..\..\src&quot;"
 		FloatingPointModel="2"
 		WarningLevel="4"
 		WarnAsError="true"
