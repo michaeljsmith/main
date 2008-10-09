@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "geometry", "..\..\libs\geom
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "colladadom", "..\..\libs\colladadom\colladadom.vcproj", "{4E33A22E-1F0C-48FE-9FD1-87C6B1865228}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre", "..\..\libs\pcre\pcre.vcproj", "{947502FF-5C0F-47B9-B423-89A336A3317D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -125,6 +127,10 @@ Global
 		{4E33A22E-1F0C-48FE-9FD1-87C6B1865228}.Debug|Win32.Build.0 = Debug|Win32
 		{4E33A22E-1F0C-48FE-9FD1-87C6B1865228}.Release|Win32.ActiveCfg = Release|Win32
 		{4E33A22E-1F0C-48FE-9FD1-87C6B1865228}.Release|Win32.Build.0 = Release|Win32
+		{947502FF-5C0F-47B9-B423-89A336A3317D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{947502FF-5C0F-47B9-B423-89A336A3317D}.Debug|Win32.Build.0 = Debug|Win32
+		{947502FF-5C0F-47B9-B423-89A336A3317D}.Release|Win32.ActiveCfg = Release|Win32
+		{947502FF-5C0F-47B9-B423-89A336A3317D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,5 +152,6 @@ Global
 		{CC41DDEE-1CC7-48B0-B723-51A26A77A9B1} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 		{951B7C10-B4B3-42B8-A12B-6F8019AF0340} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 		{4E33A22E-1F0C-48FE-9FD1-87C6B1865228} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
+		{947502FF-5C0F-47B9-B423-89A336A3317D} = {6BA28755-979E-4168-B2AD-D66BCE3B00BE}
 	EndGlobalSection
 EndGlobal
