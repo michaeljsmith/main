@@ -144,143 +144,175 @@
 	</References>
 	<Files>
 		<File
-			RelativePath="..\..\third_party\zlib\adler32.c"
+			RelativePath="..\..\..\third_party\zlib\adler32.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\algorithm.txt"
+			RelativePath="..\..\..\third_party\zlib\algorithm.txt"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\ChangeLog"
+			RelativePath="..\..\..\third_party\zlib\ChangeLog"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\compress.c"
+			RelativePath="..\..\..\third_party\zlib\compress.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\configure"
+			RelativePath="..\..\..\third_party\zlib\configure"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\crc32.c"
+			RelativePath="..\..\..\third_party\zlib\crc32.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\crc32.h"
+			RelativePath="..\..\..\third_party\zlib\crc32.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\deflate.c"
+			RelativePath="..\..\..\third_party\zlib\deflate.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\deflate.h"
+			RelativePath="..\..\..\third_party\zlib\deflate.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\example.c"
+			RelativePath="..\..\..\third_party\zlib\example.c"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="..\..\..\third_party\zlib\FAQ"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\FAQ"
+			RelativePath="..\..\..\third_party\zlib\gzio.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\gzio.c"
+			RelativePath="..\..\..\third_party\zlib\INDEX"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\INDEX"
+			RelativePath="..\..\..\third_party\zlib\infback.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\infback.c"
+			RelativePath="..\..\..\third_party\zlib\inffast.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\inffast.c"
+			RelativePath="..\..\..\third_party\zlib\inffast.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\inffast.h"
+			RelativePath="..\..\..\third_party\zlib\inffixed.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\inffixed.h"
+			RelativePath="..\..\..\third_party\zlib\inflate.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\inflate.c"
+			RelativePath="..\..\..\third_party\zlib\inflate.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\inflate.h"
+			RelativePath="..\..\..\third_party\zlib\inftrees.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\inftrees.c"
+			RelativePath="..\..\..\third_party\zlib\inftrees.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\inftrees.h"
+			RelativePath="..\..\..\third_party\zlib\make_vms.com"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\make_vms.com"
+			RelativePath="..\..\..\third_party\zlib\Makefile"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\Makefile"
+			RelativePath="..\..\..\third_party\zlib\Makefile.in"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\Makefile.in"
+			RelativePath="..\..\..\third_party\zlib\minigzip.c"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="..\..\..\third_party\zlib\README"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\minigzip.c"
+			RelativePath="..\..\..\third_party\zlib\trees.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\README"
+			RelativePath="..\..\..\third_party\zlib\trees.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\trees.c"
+			RelativePath="..\..\..\third_party\zlib\uncompr.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\trees.h"
+			RelativePath="..\..\..\third_party\zlib\zconf.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\uncompr.c"
+			RelativePath="..\..\..\third_party\zlib\zconf.in.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\zconf.h"
+			RelativePath="..\..\..\third_party\zlib\zlib.3"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\zconf.in.h"
+			RelativePath="..\..\..\third_party\zlib\zlib.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\zlib.3"
+			RelativePath="..\..\..\third_party\zlib\zutil.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\zlib\zlib.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\zlib\zutil.c"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\zlib\zutil.h"
+			RelativePath="..\..\..\third_party\zlib\zutil.h"
 			>
 		</File>
 	</Files>

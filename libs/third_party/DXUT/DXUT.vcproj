@@ -21,7 +21,6 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="4"
-			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops"
 			CharacterSet="1"
 			>
 			<Tool
@@ -42,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\DirectX\Include&quot;;&quot;$(SolutionDir)..\..\third_party\DXUT\DX9\Core&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -83,7 +83,6 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="4"
-			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops"
 			CharacterSet="1"
 			WholeProgramOptimization="1"
 			>
@@ -106,6 +105,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\DirectX\Include&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -149,27 +149,27 @@
 			Name="Core"
 			>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Core\DXUT.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Core\DXUT.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Core\DXUT.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Core\DXUT.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Core\DXUTenum.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Core\DXUTenum.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Core\DXUTenum.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Core\DXUTenum.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Core\DXUTmisc.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Core\DXUTmisc.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Core\DXUTmisc.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Core\DXUTmisc.h"
 				>
 			</File>
 		</Filter>
@@ -177,99 +177,115 @@
 			Name="Optional"
 			>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\directx.ico"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\directx.ico"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTcamera.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTcamera.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTcamera.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTcamera.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTgui.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTgui.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTgui.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTgui.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTguiIME.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTguiIME.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTguiIME.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTguiIME.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTLockFreePipe.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTLockFreePipe.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTres.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTres.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTres.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTres.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTsettingsdlg.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTsettingsdlg.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTsettingsdlg.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTsettingsdlg.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTShapes.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTShapes.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\DXUTShapes.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\DXUTShapes.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\ImeUi.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\ImeUi.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\ImeUi.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\ImeUi.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKmesh.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKmesh.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKmesh.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKmesh.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKmisc.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKmisc.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKmisc.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKmisc.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKsound.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKsound.cpp"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKsound.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKsound.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKwavefile.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKwavefile.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\third_party\DXUT\DX9\Optional\SDKwavefile.h"
+				RelativePath="..\..\..\third_party\DXUT\DX9\Optional\SDKwavefile.h"
 				>
 			</File>
 		</Filter>

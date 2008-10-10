@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="expat"
-	ProjectGUID="{289680FD-76A9-409D-88A9-C9EA926C56B3}"
-	RootNamespace="expat"
+	Name="minizip"
+	ProjectGUID="{0F2EEB54-8D8B-48D2-B81E-F170840CBC6B}"
+	RootNamespace="minizip"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -41,7 +41,8 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;HAVE_MEMMOVE"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\zlib&quot;"
+				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -104,7 +105,8 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;HAVE_MEMMOVE"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\zlib&quot;"
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
 				UsePrecompiledHeader="0"
@@ -144,95 +146,87 @@
 	</References>
 	<Files>
 		<File
-			RelativePath="..\..\third_party\expat\lib\amigaconfig.h"
+			RelativePath="..\..\..\third_party\minizip\ChangeLogUnzip"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\ascii.h"
+			RelativePath="..\..\..\third_party\minizip\crypt.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\asciitab.h"
+			RelativePath="..\..\..\third_party\minizip\ioapi.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\expat.h"
+			RelativePath="..\..\..\third_party\minizip\ioapi.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\expat_external.h"
+			RelativePath="..\..\..\third_party\minizip\iowin32.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\iasciitab.h"
+			RelativePath="..\..\..\third_party\minizip\iowin32.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\internal.h"
+			RelativePath="..\..\..\third_party\minizip\Makefile"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\latin1tab.h"
+			RelativePath="..\..\..\third_party\minizip\miniunz.c"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="..\..\..\third_party\minizip\minizip.c"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+				/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="..\..\..\third_party\minizip\unzip.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\libexpat.def"
+			RelativePath="..\..\..\third_party\minizip\unzip.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\libexpatw.def"
+			RelativePath="..\..\..\third_party\minizip\zip.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\expat\lib\macconfig.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\Makefile.MPW"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\nametab.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\utf8tab.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\winconfig.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmlparse.c"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmlrole.c"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmlrole.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmltok.c"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmltok.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmltok_impl.c"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmltok_impl.h"
-			>
-		</File>
-		<File
-			RelativePath="..\..\third_party\expat\lib\xmltok_ns.c"
+			RelativePath="..\..\..\third_party\minizip\zip.h"
 			>
 		</File>
 	</Files>

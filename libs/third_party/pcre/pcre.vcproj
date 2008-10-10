@@ -146,247 +146,247 @@
 	</References>
 	<Files>
 		<File
-			RelativePath="..\..\third_party\pcre\132html"
+			RelativePath="..\..\..\third_party\pcre\132html"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\AUTHORS"
+			RelativePath="..\..\..\third_party\pcre\AUTHORS"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\CleanTxt"
+			RelativePath="..\..\..\third_party\pcre\CleanTxt"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\config.h"
+			RelativePath="..\..\..\third_party\pcre\config.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\COPYING"
+			RelativePath="..\..\..\third_party\pcre\COPYING"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\depcomp"
+			RelativePath="..\..\..\third_party\pcre\depcomp"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\Detrail"
+			RelativePath="..\..\..\third_party\pcre\Detrail"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\HACKING"
+			RelativePath="..\..\..\third_party\pcre\HACKING"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\INSTALL"
+			RelativePath="..\..\..\third_party\pcre\INSTALL"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\libpcre.pc.in"
+			RelativePath="..\..\..\third_party\pcre\libpcre.pc.in"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\libpcrecpp.pc.in"
+			RelativePath="..\..\..\third_party\pcre\libpcrecpp.pc.in"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\LICENCE"
+			RelativePath="..\..\..\third_party\pcre\LICENCE"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\makevp.bat"
+			RelativePath="..\..\..\third_party\pcre\makevp.bat"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\makevp_c.txt"
+			RelativePath="..\..\..\third_party\pcre\makevp_c.txt"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\makevp_l.txt"
+			RelativePath="..\..\..\third_party\pcre\makevp_l.txt"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\missing"
+			RelativePath="..\..\..\third_party\pcre\missing"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\NEWS"
+			RelativePath="..\..\..\third_party\pcre\NEWS"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\NON-UNIX-USE"
+			RelativePath="..\..\..\third_party\pcre\NON-UNIX-USE"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre-config.in"
+			RelativePath="..\..\..\third_party\pcre\pcre-config.in"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre.h"
+			RelativePath="..\..\..\third_party\pcre\pcre.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre.h.in"
+			RelativePath="..\..\..\third_party\pcre\pcre.h.in"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_chartables.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_chartables.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_compile.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_compile.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_config.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_config.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_dfa_exec.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_dfa_exec.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_exec.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_exec.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_fullinfo.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_fullinfo.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_get.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_get.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_globals.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_globals.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_info.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_info.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_internal.h"
+			RelativePath="..\..\..\third_party\pcre\pcre_internal.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_maketables.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_maketables.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_newline.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_newline.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_ord2utf8.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_ord2utf8.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_printint.src"
+			RelativePath="..\..\..\third_party\pcre\pcre_printint.src"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_refcount.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_refcount.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_scanner.cc"
+			RelativePath="..\..\..\third_party\pcre\pcre_scanner.cc"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_scanner.h"
+			RelativePath="..\..\..\third_party\pcre\pcre_scanner.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_stringpiece.cc"
+			RelativePath="..\..\..\third_party\pcre\pcre_stringpiece.cc"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_stringpiece.h.in"
+			RelativePath="..\..\..\third_party\pcre\pcre_stringpiece.h.in"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_study.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_study.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_tables.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_tables.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_try_flipped.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_try_flipped.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_ucd.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_ucd.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_valid_utf8.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_valid_utf8.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_version.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_version.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcre_xclass.c"
+			RelativePath="..\..\..\third_party\pcre\pcre_xclass.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcrecpp.cc"
+			RelativePath="..\..\..\third_party\pcre\pcrecpp.cc"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcrecpp.h"
+			RelativePath="..\..\..\third_party\pcre\pcrecpp.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcrecpp_internal.h"
+			RelativePath="..\..\..\third_party\pcre\pcrecpp_internal.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcrecpparg.h.in"
+			RelativePath="..\..\..\third_party\pcre\pcrecpparg.h.in"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcregexp.pas"
+			RelativePath="..\..\..\third_party\pcre\pcregexp.pas"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcreposix.c"
+			RelativePath="..\..\..\third_party\pcre\pcreposix.c"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\pcreposix.h"
+			RelativePath="..\..\..\third_party\pcre\pcreposix.h"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\perltest.pl"
+			RelativePath="..\..\..\third_party\pcre\perltest.pl"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\PrepareRelease"
+			RelativePath="..\..\..\third_party\pcre\PrepareRelease"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\README"
+			RelativePath="..\..\..\third_party\pcre\README"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\RunGrepTest"
+			RelativePath="..\..\..\third_party\pcre\RunGrepTest"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\RunTest"
+			RelativePath="..\..\..\third_party\pcre\RunTest"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\RunTest.bat"
+			RelativePath="..\..\..\third_party\pcre\RunTest.bat"
 			>
 		</File>
 		<File
-			RelativePath="..\..\third_party\pcre\ucp.h"
+			RelativePath="..\..\..\third_party\pcre\ucp.h"
 			>
 		</File>
 	</Files>
