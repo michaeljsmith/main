@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="colladadom"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\colladadom\dom\include&quot;;&quot;$(SolutionDir)..\..\third_party\colladadom\dom\include\1.4&quot;;&quot;$(SolutionDir)..\..\src&quot;"
+		PreprocessorDefinitions="PCRE_STATIC"
+		DisableSpecificWarnings="4995"
+	/>
+</VisualStudioPropertySheet>

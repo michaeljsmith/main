@@ -29,7 +29,7 @@ namespace meshes {namespace models
 		class format
 		{
 		public:
-			format() {std::fill(this->stream_indcs, this->stream_indcs+ vertex_data_count, -1);}
+			format() {std::fill(this->stream_indcs, this->stream_indcs + vertex_data_count, -1);}
 
 			int stream_indcs[vertex_data_count];
 			std::vector<vertex_format> vertex_strms;

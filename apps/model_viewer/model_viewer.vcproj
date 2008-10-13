@@ -21,7 +21,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops"
+			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops;..\..\props\colladadom.vsprops"
 			CharacterSet="1"
 			>
 			<Tool
@@ -93,7 +93,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops"
+			InheritedPropertySheets="..\..\props\base.vsprops;..\..\props\d3d.vsprops;..\..\props\colladadom.vsprops"
 			CharacterSet="1"
 			WholeProgramOptimization="1"
 			>

@@ -7,6 +7,11 @@
 #include "rendering/renderer_impl.h"
 #include "rendering/dx9/renderer_dx9.h"
 
+#include "collada/collada.h"
+#include "meshes/models/dynamic_mesh.h"
+
+#include "dae.h"
+
 class application
 {
 public:
@@ -14,6 +19,20 @@ public:
 };
 
 static application app;
+
+void load_model()
+{
+	DAE dae;
+
+	char const* filename = "c:/main/data/cube.dae";
+	bool success = (DAE_OK == dae.open(filename) ? true : false);
+	domCOLLADA* dom = (success ? dae.getDom(filename) : 0);
+
+	meshes::dynamic_mesh::format fmt;
+	meshes::dynamic_mesh msh(fmt);
+	if (dom)
+		collada::load_mesh(msh, dom, "box-lib");
+}
 
 //--------------------------------------------------------------------------------------
 // Rejects any D3D9 devices that aren't acceptable to the app by returning false
@@ -119,6 +138,8 @@ INT WINAPI wWinMain( HINSTANCE, HINSTANCE, LPWSTR, int )
 #if defined(DEBUG) | defined(_DEBUG)
     _CrtSetDbgFlag( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );
 #endif
+
+	load_model();
 
     // Set the callback functions
     DXUTSetCallbackD3D9DeviceAcceptable( IsD3D9DeviceAcceptable );

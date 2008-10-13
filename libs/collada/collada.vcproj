@@ -41,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\colladadom\dom\include&quot;;&quot;$(SolutionDir)..\..\third_party\colladadom\dom\include\1.4&quot;;&quot;$(SolutionDir)..\..\src&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -104,6 +105,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\..\third_party\colladadom\dom\include&quot;;&quot;$(SolutionDir)..\..\third_party\colladadom\dom\include\1.4&quot;;&quot;$(SolutionDir)..\..\src&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -143,6 +145,14 @@
 	<References>
 	</References>
 	<Files>
+		<File
+			RelativePath="..\..\src\collada\collada.cpp"
+			>
+		</File>
+		<File
+			RelativePath="..\..\src\collada\collada.h"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
