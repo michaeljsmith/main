@@ -25,8 +25,7 @@ void load_model()
 	DAE dae;
 
 	char const* filename = "c:/main/data/cube.dae";
-	bool success = (DAE_OK == dae.open(filename) ? true : false);
-	domCOLLADA* dom = (success ? dae.getDom(filename) : 0);
+	domCOLLADA* dom = dae.open(filename);
 
 	meshes::dynamic_mesh::format fmt;
 	meshes::dynamic_mesh msh(fmt);
